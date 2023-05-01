@@ -1,0 +1,136 @@
+.content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.controls {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.feed {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.post_detail {
+    display: grid;
+    background-color: beige;
+    border-radius: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.post_user {
+    padding: 0.5rem;
+    display: inline-flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post {
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.post_time {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: end;
+}
+
+.single_post {
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+}
+
+.reply_detail {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.reply {
+    margin-bottom: 5px;
+}
+
+.reply_user {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.reply_time {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: end;
+}
+
+.feed_text {
+    margin-top: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: cursive;
+}
+
+.post_details {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 2rem;
+}
+
+.reply_area {
+    margin-left: 1rem;
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    resize: none;
+    font-size: 15px;
+    line-height: 1.5;
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.reply_btn {
+    margin-left: 10px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+    background-color: #1da1f2;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.reply_btn:hover {
+    background-color: #0d8bf0;
+}
+
+

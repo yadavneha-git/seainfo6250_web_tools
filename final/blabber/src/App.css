@@ -1,0 +1,14 @@
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--primary-bg);
+}
+
+.app.dark {
+  --primary-bg: #919191;
+  --header-bg: #EE7444;
+}
+
+.appp {
+  height: 100%;
+}

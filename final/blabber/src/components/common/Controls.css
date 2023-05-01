@@ -1,0 +1,205 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.control_btn,
+.control_btn_page,
+.control_btn_logout {
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 25px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+.control_btn:hover,
+.control_btn_page:hover,
+.control_btn_logout:hover {
+  background-color: lightgray;
+}
+
+
+.control_btn_page {
+  display: inline-flex;
+  background-color: transparent;
+  color: black;
+  background-color: #1DA1F2;
+  
+}
+
+.control_btn{
+  justify-content: space-between;
+}
+
+.control_btn_page:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+.control_btn_logout {
+  background-color: #1DA1F2;
+  color: black;
+}
+
+.control_btn_logout:hover {
+  color: white;
+  background-color: lightgray;
+}
+
+.gg-profile,
+.gg-profile::after,
+.gg-profile::before {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 100px
+}
+
+.gg-profile {
+  overflow: hidden;
+  transform: scale(var(--ggs, 1));
+  width: 22px;
+  height: 22px;
+  position: absolute
+}
+
+.gg-profile::after,
+.gg-profile::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 8px;
+  height: 8px
+}
+
+.gg-profile::after {
+  border-radius: 200px;
+  top: 11px;
+  left: 0px;
+  width: 18px;
+  height: 18px
+}
+
+.gg-log-out {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  width: 6px;
+  height: 16px;
+  border: 2px solid;
+  transform: scale(var(--ggs, 1));
+  border-right: 0;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+}
+
+.gg-log-out::after,
+.gg-log-out::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute
+}
+
+.gg-log-out::after {
+  border-top: 2px solid;
+  border-left: 2px solid;
+  transform: rotate(-45deg);
+  width: 8px;
+  height: 8px;
+  left: 4px;
+  bottom: 2px
+}
+
+.gg-log-out::before {
+  border-radius: 3px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+  left: 5px;
+  bottom: 5px
+}
+
+.gg-search {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  transform: scale(var(--ggs, 1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-radius: 100%;
+  margin-left: -4px;
+  margin-right: 1.5rem;
+  margin-top: -4px;
+  margin-bottom: 0;
+}
+
+.gg-search::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 10px;
+  left: 12px
+}
+
+.gg-home-alt {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 18px;
+  height: 14px;
+  border: 2px solid;
+  border-top: 0;
+  border-radius: 2px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-bottom: -2px;
+  margin-right: 1.5rem;
+}
+
+.gg-home-alt::after,
+.gg-home-alt::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute
+}
+
+.gg-home-alt::before {
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-top-left-radius: 4px;
+  transform: rotate(45deg);
+  top: -5px;
+  border-radius: 3px;
+  width: 14px;
+  height: 14px;
+  left: 0
+}
+
+.gg-home-alt::after {
+  width: 6px;
+  height: 10px;
+  background: currentColor;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  left: 4px;
+  bottom: -2px
+}
